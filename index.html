@@ -1,4 +1,4 @@
-<!DOCTYPE html ><head> <link rel="preconnect" href="https://fonts.gstatic.com"/><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap" rel="stylesheet"/><style> html, body{
+<!DOCTYPE html ><head> <link rel="preconnect" href="https://fonts.gstatic.com"/><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap" rel="stylesheet"/><meta name="viewport" content="width=device-width, initial-scale=1"/><style> html, body{
     margin:0;
     padding:0;
 }
@@ -263,6 +263,172 @@ line-height: 22px;
 /* White */
 
 color: #FFFFFF;
+}
+
+@media (max-width:800px){
+    .header__background{
+        height:700px;
+    }
+    .header__maintext{
+        font-size: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .about-us{
+        height:200px;
+    }
+
+    .about-us__element1{
+        font-size: 55px;
+    }
+    .about-us__element2{
+        font-size: 27px;
+    }
+    .photos{
+        height:550px;
+    }
+    .photos__name{
+        padding-top:50px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px){
+    .header__background{
+        height:500px;
+    }
+    .header__maintext{
+        font-size: 35px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 25px;
+        height:86px;
+        line-height: 35px;
+    }
+    .about-us__element2{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .photos{
+        height:400px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+}
+
+@media (max-width:400px){
+    .header__background{
+        height:500px;
+    }
+    .header__maintext{
+        font-size: 35px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        line-height: 70px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 25px;
+        height:86px;
+        line-height: 35px;
+    }
+    .about-us__element2{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .photos{
+        height:302px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+}
+
+@media (max-width:345px){
+    .header__background{
+        height:440px;
+    }
+    .header__maintext{
+        font-size: 26px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        line-height: 69px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 22px;
+        height:86px;
+        line-height: 30px;
+    }
+    .about-us__element2{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .photos{
+        height:302px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+    .kontakts{
+        height:320px;
+    }
 }</style><script> window.onload=function(){
     let karta = document.getElementById("karta");
     let width = window.innerWidth;
@@ -278,8 +444,16 @@ color: #FFFFFF;
         width = 688;
     }
 
-    else if (window.innerWidth < 688){
-        width = window.innerWidth;
+    else if (window.innerWidth >= 500){
+        width = 500;
+    }
+
+    else if (window.innerWidth >= 400){
+        width = 400;
+    }
+
+    else if (window.innerWidth >= 320){
+        width = 320;
     }
 
     karta.src=`https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A868440aafb3dee28d51d49af268be5a2214c509065e74fc96f7d42c497c5358c&amp;width=${width}&amp;height=499&amp;lang=ru_RU&amp;scroll=true`;
@@ -598,4 +772,4 @@ color: #FFFFFF;
     <!-- #endregion Jssor Slider End -->
 </body>
 </html>
-</div></div></div><div class="nomer"><div class="wrapper"><div class="nomer__pozvonite">Для заказа звонить по номеру: +79780730656</div></div></div><div class="karta"> <h2 class="karta__name">Как нас найти</h2><div class="wrapper"><div class="karta__karta"><script id="karta" type="text/javascript" charset="utf-8" async></script></div></div></div><div class="kontakts"><div class="wrapper"> <h2 class="kontakts__name">Контакты</h2><div class="items"> <div class="items__item">Республика Крым, Красногвардейский район, пгт. Амурское, ул. Шевченко 3А</div><div class="items__item">+7(978) 073-06-56 <br></div><div class="items__item">Без выходных 10:00 - 20:00</div></div></div></div><footer class="footer"><div class="wrapper"> <div class="footer__copyright">© 2021 Башташ</div></div></footer></body>
+</div></div></div><div class="nomer"><div class="wrapper"><div class="nomer__pozvonite">Для заказа звонить по номеру: +79780730656</div></div></div><div class="karta"> <h2 class="karta__name">Как нас найти</h2><div class="wrapper"><div class="karta__karta"><script id="karta" type="text/javascript" charset="utf-8" async></script></div></div></div><div class="kontakts"><div class="wrapper"> <h2 class="kontakts__name">Контакты</h2><div class="items"> <div class="items__item">Республика Крым, пгт. Октябрьское (Амурское), ул. Шевченко 3А</div><div class="items__item">+7(978) 073-06-56 <br></div><div class="items__item">Без выходных 10:00 - 20:00</div></div></div></div><footer class="footer"><div class="wrapper"> <div class="footer__copyright">© 2021 Башташ</div></div></footer></body>

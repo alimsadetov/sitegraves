@@ -264,3 +264,169 @@ line-height: 22px;
 
 color: #FFFFFF;
 }
+
+@media (max-width:800px){
+    .header__background{
+        height:700px;
+    }
+    .header__maintext{
+        font-size: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .about-us{
+        height:200px;
+    }
+
+    .about-us__element1{
+        font-size: 55px;
+    }
+    .about-us__element2{
+        font-size: 27px;
+    }
+    .photos{
+        height:550px;
+    }
+    .photos__name{
+        padding-top:50px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px){
+    .header__background{
+        height:500px;
+    }
+    .header__maintext{
+        font-size: 35px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 25px;
+        height:86px;
+        line-height: 35px;
+    }
+    .about-us__element2{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .photos{
+        height:400px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+}
+
+@media (max-width:400px){
+    .header__background{
+        height:500px;
+    }
+    .header__maintext{
+        font-size: 35px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        line-height: 70px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 25px;
+        height:86px;
+        line-height: 35px;
+    }
+    .about-us__element2{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .photos{
+        height:302px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+}
+
+@media (max-width:345px){
+    .header__background{
+        height:440px;
+    }
+    .header__maintext{
+        font-size: 26px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        line-height: 69px;
+    }
+
+    .about-us{
+        padding:20px;
+        height:120px;
+    }
+
+    .about-us__element1{
+        font-size: 22px;
+        height:86px;
+        line-height: 30px;
+    }
+    .about-us__element2{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .photos{
+        height:302px;
+    }
+    .photos__name{
+        padding-top:40px;
+    }
+
+    .items__item{
+        font-size: 18px;
+    }
+    .nomer{
+        height:150px;
+    }
+    .nomer__pozvonite{
+        font-size: 25px;
+        padding-top:10px;
+    }
+    .kontakts{
+        height:320px;
+    }
+}
