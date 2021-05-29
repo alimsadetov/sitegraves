@@ -3,16 +3,28 @@ head
     link(rel="preconnect" href="https://fonts.gstatic.com")
     link(href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet")
     meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="geo.region" content="RU")
+    meta(name="description" content="Памятники Башташ - надёжные памятники по Крыму и Севастополю. Индивидуальный подход к каждому клиенту, минимальные цены, опыт работы более 25 лет.")
+    meta(name="robots" content="all")
+    meta(name="keywords" content="памятники, крым, симферополь, башташ")
+    meta(name="author" content="Алим Садетов")
+    link(rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png")
+    link(rel="manifest" href="site.webmanifest")
+    link(rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5")
+    meta(name="msapplication-TileColor" content="#da532c")
+    meta(name="theme-color" content="#ffffff")
     style 
         include style.css 
     script 
         include main.js
-    title Памятники Башташ
+    title "Памятники Башташ" - памятники по Крыму и Севастополю
 body
-    .header__background
+    header.header__background
         .wrapper
             .header__logo 
-            .header__maintext БАШТАШ - ПАМЯТНИКИ ПО КРЫМУ И СЕВАСТОПОЛЮ
+            main.header__maintext БАШТАШ - ПАМЯТНИКИ ПО КРЫМУ И СЕВАСТОПОЛЮ
             .about-us
                 .about-us__element1 25
                     .about-us__element2 лет опыта
@@ -35,7 +47,7 @@ body
             .karta__karta <script id="karta" type="text/javascript" charset="utf-8" async></script>
             
 
-    .kontakts
+    footer.kontakts
         .wrapper 
             h2.kontakts__name Контакты
             .items 
@@ -43,6 +55,6 @@ body
                 .items__item +7(978) 073-06-56 <br>
                 .items__item Без выходных 10:00 - 20:00
 
-    footer.footer
+    .footer
         .wrapper 
             .footer__copyright © 2021 Башташ
